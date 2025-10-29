@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="🛍"
+            android:textSize="64sp"
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Rejestracja"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:layout_marginBottom="32dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/etRegisterLogin"
+            android:hint="Login"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/etRegisterPassword"
+            android:hint="Hasło"
+            android:padding="16dp"
+            android:inputType="textPassword"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/etConfirmPassword"
+            android:hint="Powtórz hasło"
+            android:padding="16dp"
+            android:inputType="textPassword"
+            android:layout_marginBottom="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:text="Zarejestruj się"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:backgroundTint="#2E7D32"
+            android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/tvGoToLogin"
+            android:text="Masz już konto? Zaloguj się"
+            android:textSize="16sp"
+            android:textColor="#1976D2"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sklep Online</string>
+
+    <string-array name="sort_options">
+        <item>Data: Najnowsze</item>
+        <item>Data: Najstarsze</item>
+        <item>Sprzedaż: Najwięcej</item>
+        <item>Sprzedaż: Najmniej</item>
+        <item>Cena: Od najniższej</item>
+        <item>Cena: Od najwyższej</item>
+    </string-array>
+</resources>
